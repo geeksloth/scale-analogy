@@ -60,16 +60,18 @@ $$d_{\text{meters}} = d_{\text{input}} \times 10^n$$
 
 ### Optimal Unit Selection Algorithm
 
-$$\text{unit}_{\text{optimal}} = \max\left\{u : \frac{d_{\text{meters}}}{10^{n_u}} \geq 1\right\}$$
+$$\text{unit}_{\text{optimal}} = \max \{ u \mid \frac{d_{\text{meters}}}{10^{n_u}} \geq 1 \}$$
 
 ### Range Handling Mathematics
 
 For objects with size ranges $[d_{\min}, d_{\max}]$:
 
 **Arithmetic Mean (Current Implementation):**
+
 $$d_{\text{effective}} = \frac{d_{\min} + d_{\max}}{2}$$
 
 **Geometric Mean (Alternative):**
+
 $$d_{\text{effective}} = \sqrt{d_{\min} \times d_{\max}}$$
 
 ### Computational Complexity
@@ -84,9 +86,11 @@ $$d_{\text{effective}} = \sqrt{d_{\min} \times d_{\max}}$$
 ### Error Analysis
 
 **Accuracy Measurement:**
+
 $$\text{Accuracy} = \left(1 - \frac{|d_{\text{actual}} - d_{\text{expected}}|}{d_{\text{expected}}}\right) \times 100\%$$
 
 **Error Propagation for Ranges:**
+
 $$\sigma_{\text{ratio}} = \sqrt{\left(\frac{\partial R}{\partial d_1}\sigma_{d_1}\right)^2 + \left(\frac{\partial R}{\partial d_2}\sigma_{d_2}\right)^2}$$
 
 ## Implementation (v2.1)

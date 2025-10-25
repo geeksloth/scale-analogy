@@ -83,9 +83,11 @@ The tool implements several algorithms with different complexity characteristics
 **Object Comparison**: $O(1)$ - Direct diameter lookup and ratio calculation
 
 **Best Match Finding**: $O(n)$ - Linear search through all objects to find the closest match
-$$\text{best\_match} = \arg\min_{i} |d_i - d_{target}|$$
+
+$$\text{bestmatch} = \arg\min_{i} |d_i - d_{target}|$$
 
 **Range Queries**: $O(n)$ - Filter objects within specified size bounds
+
 $$\{o_i : d_{min} \leq d_i \leq d_{max}\}$$
 
 **Analogy Generation**: $O(n)$ - Calculate scaled sizes for all objects and find optimal matches

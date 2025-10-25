@@ -121,7 +121,7 @@ def create_scale_analogy(self, obj1, obj2, obj3):
 
 ## Example Output
 
-![Scale Analogies Explorer Screenshot](v2.1/static/screenshot2.png)
+![Scale Analogies Explorer Screenshot](static/screenshot2.png)
 
 **Mathematical Result:**
 ```

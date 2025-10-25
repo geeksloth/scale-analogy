@@ -1,0 +1,221 @@
+{
+  "_metadata": {
+    "version": "2.0",
+    "created": "2025-10-25",
+    "description": "Efficient object size database with metric prefix support",
+    "units": "meters",
+    "total_objects": 33,
+    "scale_range": "10^-35 to 10^26 meters"
+  },
+  "objects": {
+    "planck_length": {
+      "n": "Planck Length",
+      "d": 1.616e-35,
+      "r": [1.616e-35, 1.616e-35],
+      "desc": "Smallest meaningful length in physics",
+      "tags": ["quantum", "fundamental"]
+    },
+    "proton": {
+      "n": "Proton",
+      "d": 8.4e-16,
+      "desc": "Proton diameter",
+      "tags": ["particle", "subatomic"]
+    },
+    "atomic_nucleus": {
+      "n": "Atomic Nucleus (Hydrogen)",
+      "d": 1.75e-15,
+      "desc": "Hydrogen nucleus diameter",
+      "tags": ["particle", "atomic"]
+    },
+    "electron": {
+      "n": "Electron (classical radius)",
+      "d": 2.82e-15,
+      "desc": "Classical electron radius",
+      "tags": ["particle", "subatomic"]
+    },
+    "hydrogen_atom": {
+      "n": "Hydrogen Atom",
+      "d": 1.06e-10,
+      "desc": "Hydrogen atom diameter",
+      "tags": ["atom", "element"]
+    },
+    "carbon_atom": {
+      "n": "Carbon Atom",
+      "d": 1.54e-10,
+      "desc": "Carbon atom diameter",
+      "tags": ["atom", "element"]
+    },
+    "dna_helix": {
+      "n": "DNA Double Helix",
+      "d": 2.0e-9,
+      "desc": "DNA double helix diameter",
+      "tags": ["biological", "molecular"]
+    },
+    "virus": {
+      "n": "Virus (typical)",
+      "d": 1.0e-7,
+      "r": [2.0e-8, 3.0e-7],
+      "desc": "Typical virus diameter",
+      "tags": ["biological", "microscopic"]
+    },
+    "red_blood_cell": {
+      "n": "Red Blood Cell",
+      "d": 7.0e-6,
+      "r": [6.0e-6, 8.0e-6],
+      "desc": "Human red blood cell diameter",
+      "tags": ["biological", "cell"]
+    },
+    "human_hair": {
+      "n": "Human Hair",
+      "d": 1.0e-4,
+      "r": [1.7e-5, 1.8e-4],
+      "desc": "Human hair diameter",
+      "tags": ["biological", "human"]
+    },
+    "golf_ball": {
+      "n": "Golf Ball",
+      "d": 4.267e-2,
+      "desc": "Standard golf ball diameter",
+      "tags": ["sports", "reference"]
+    },
+    "tennis_ball": {
+      "n": "Tennis Ball",
+      "d": 6.7e-2,
+      "r": [6.541e-2, 6.858e-2],
+      "desc": "Official tennis ball diameter",
+      "tags": ["sports", "reference"]
+    },
+    "soccer_ball": {
+      "n": "Soccer Ball",
+      "d": 2.15e-1,
+      "r": [2.1e-1, 2.2e-1],
+      "desc": "FIFA regulation soccer ball",
+      "tags": ["sports", "reference"]
+    },
+    "basketball": {
+      "n": "Basketball",
+      "d": 2.385e-1,
+      "r": [2.38e-1, 2.39e-1],
+      "desc": "Official basketball diameter",
+      "tags": ["sports", "reference"]
+    },
+    "blue_whale": {
+      "n": "Blue Whale (length)",
+      "d": 2.7e1,
+      "r": [2.4e1, 3.0e1],
+      "desc": "Blue whale length",
+      "tags": ["biological", "animal", "large"]
+    },
+    "statue_of_liberty": {
+      "n": "Statue of Liberty",
+      "d": 9.3e1,
+      "desc": "Height from base to torch",
+      "tags": ["structure", "landmark"]
+    },
+    "eiffel_tower": {
+      "n": "Eiffel Tower",
+      "d": 3.3e2,
+      "desc": "Height including antenna",
+      "tags": ["structure", "landmark"]
+    },
+    "mount_everest": {
+      "n": "Mount Everest",
+      "d": 8.849e3,
+      "desc": "Height of Mount Everest",
+      "tags": ["geographical", "mountain"]
+    },
+    "mariana_trench": {
+      "n": "Mariana Trench",
+      "d": 1.1e4,
+      "desc": "Deepest part of Earth's oceans",
+      "tags": ["geographical", "ocean"]
+    },
+    "atmosphere_thickness": {
+      "n": "Earth's Atmosphere",
+      "d": 1.0e5,
+      "desc": "Thickness of Earth's atmosphere",
+      "tags": ["atmospheric", "earth"]
+    },
+    "mercury": {
+      "n": "Mercury",
+      "d": 4.879e6,
+      "desc": "Mercury diameter",
+      "tags": ["celestial", "planet"]
+    },
+    "mars": {
+      "n": "Mars",
+      "d": 6.7855e6,
+      "r": [6.779e6, 6.792e6],
+      "desc": "Mars diameter",
+      "tags": ["celestial", "planet"]
+    },
+    "venus": {
+      "n": "Venus",
+      "d": 1.2104e7,
+      "desc": "Venus diameter",
+      "tags": ["celestial", "planet"]
+    },
+    "earth": {
+      "n": "Earth",
+      "d": 1.2749e7,
+      "r": [1.2742e7, 1.2756e7],
+      "desc": "Earth's equatorial diameter",
+      "tags": ["celestial", "planet", "home"]
+    },
+    "moon": {
+      "n": "Moon",
+      "d": 3.474e6,
+      "desc": "Moon's diameter",
+      "tags": ["celestial", "satellite"]
+    },
+    "jupiter": {
+      "n": "Jupiter",
+      "d": 1.41402e8,
+      "r": [1.3982e8, 1.42984e8],
+      "desc": "Jupiter's equatorial diameter",
+      "tags": ["celestial", "planet", "gas_giant"]
+    },
+    "earth_moon_distance": {
+      "n": "Earth-Moon Distance",
+      "d": 3.844e8,
+      "desc": "Average distance from Earth to Moon",
+      "tags": ["distance", "space"]
+    },
+    "sun": {
+      "n": "Sun",
+      "d": 1.3927e9,
+      "desc": "Sun's diameter",
+      "tags": ["celestial", "star"]
+    },
+    "earth_sun_distance": {
+      "n": "Earth-Sun Distance (1 AU)",
+      "d": 1.496e11,
+      "desc": "Astronomical unit - Earth to Sun distance",
+      "tags": ["distance", "space", "astronomical_unit"]
+    },
+    "solar_system_diameter": {
+      "n": "Solar System (Kuiper Belt)",
+      "d": 9.0e12,
+      "desc": "Approximate diameter of solar system",
+      "tags": ["distance", "space", "solar_system"]
+    },
+    "light_year": {
+      "n": "Light Year",
+      "d": 9.461e15,
+      "desc": "Distance light travels in one year",
+      "tags": ["distance", "space", "light_speed"]
+    },
+    "milky_way_diameter": {
+      "n": "Milky Way Galaxy",
+      "d": 9.5e20,
+      "desc": "Diameter of the Milky Way galaxy",
+      "tags": ["celestial", "galaxy", "cosmic"]
+    },
+    "observable_universe": {
+      "n": "Observable Universe",
+      "d": 8.8e26,
+      "desc": "Diameter of the observable universe",
+      "tags": ["cosmic", "universe", "ultimate"]
+    }
+  }
+}

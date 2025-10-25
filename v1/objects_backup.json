@@ -1,0 +1,281 @@
+{
+  "reference_objects": {
+    "golf_ball": {
+      "name": "Golf Ball",
+      "diameter_min": 4.267e-2,
+      "diameter_max": 4.267e-2,
+      "diameter_average": 4.267e-2,
+      "diameter_multiplier": 1.0,
+      "description": "Standard golf ball diameter"
+    },
+    "tennis_ball": {
+      "name": "Tennis Ball",
+      "diameter_min": 6.541e-2,
+      "diameter_max": 6.858e-2,
+      "diameter_average": 6.7e-2,
+      "diameter_multiplier": 1.0,
+      "description": "Official tennis ball diameter"
+    },
+    "basketball": {
+      "name": "Basketball",
+      "diameter_min": 2.38e-1,
+      "diameter_max": 2.39e-1,
+      "diameter_average": 2.385e-1,
+      "diameter_multiplier": 1.0,
+      "description": "Official basketball diameter"
+    },
+    "soccer_ball": {
+      "name": "Soccer Ball",
+      "diameter_min": 2.1e-1,
+      "diameter_max": 2.2e-1,
+      "diameter_average": 2.15e-1,
+      "diameter_multiplier": 1.0,
+      "description": "FIFA regulation soccer ball"
+    }
+  },
+  "celestial_objects": {
+    "earth": {
+      "name": "Earth",
+      "diameter_min": 1.2742e7,
+      "diameter_max": 1.2756e7,
+      "diameter_average": 1.2749e7,
+      "diameter_multiplier": 1.0,
+      "description": "Earth's equatorial diameter"
+    },
+    "moon": {
+      "name": "Moon",
+      "diameter_min": 3.474e6,
+      "diameter_max": 3.474e6,
+      "diameter_average": 3.474e6,
+      "diameter_multiplier": 1.0,
+      "description": "Moon's diameter"
+    },
+    "sun": {
+      "name": "Sun",
+      "diameter_min": 1.3927e9,
+      "diameter_max": 1.3927e9,
+      "diameter_average": 1.3927e9,
+      "diameter_multiplier": 1.0,
+      "description": "Sun's diameter"
+    },
+    "jupiter": {
+      "name": "Jupiter",
+      "diameter_min": 1.3982e8,
+      "diameter_max": 1.42984e8,
+      "diameter_average": 1.41402e8,
+      "diameter_multiplier": 1.0,
+      "description": "Jupiter's equatorial diameter"
+    },
+    "mars": {
+      "name": "Mars",
+      "diameter_min": 6.779e6,
+      "diameter_max": 6.792e6,
+      "diameter_average": 6.7855e6,
+      "diameter_multiplier": 1.0,
+      "description": "Mars diameter"
+    },
+    "venus": {
+      "name": "Venus",
+      "diameter_min": 1.2104e7,
+      "diameter_max": 1.2104e7,
+      "diameter_average": 1.2104e7,
+      "diameter_multiplier": 1.0,
+      "description": "Venus diameter"
+    },
+    "mercury": {
+      "name": "Mercury",
+      "diameter_min": 4.879e6,
+      "diameter_max": 4.879e6,
+      "diameter_average": 4.879e6,
+      "diameter_multiplier": 1.0,
+      "description": "Mercury diameter"
+    }
+  },
+  "extremely_small_objects": {
+    "proton": {
+      "name": "Proton",
+      "diameter_min": 8.4e-16,
+      "diameter_max": 8.4e-16,
+      "diameter_average": 8.4e-16,
+      "diameter_multiplier": 1.0,
+      "description": "Proton diameter"
+    },
+    "atomic_nucleus": {
+      "name": "Atomic Nucleus (Hydrogen)",
+      "diameter_min": 1.75e-15,
+      "diameter_max": 1.75e-15,
+      "diameter_average": 1.75e-15,
+      "diameter_multiplier": 1.0,
+      "description": "Hydrogen nucleus diameter"
+    },
+    "electron": {
+      "name": "Electron (classical radius)",
+      "diameter_min": 2.82e-15,
+      "diameter_max": 2.82e-15,
+      "diameter_average": 2.82e-15,
+      "diameter_multiplier": 1.0,
+      "description": "Classical electron radius"
+    },
+    "planck_length": {
+      "name": "Planck Length",
+      "diameter_min": 1.616e-35,
+      "diameter_max": 1.616e-35,
+      "diameter_average": 1.616e-35,
+      "diameter_multiplier": 1.0,
+      "description": "Smallest meaningful length in physics"
+    }
+  },
+  "atomic_scale_objects": {
+    "hydrogen_atom": {
+      "name": "Hydrogen Atom",
+      "diameter_min": 1.06e-10,
+      "diameter_max": 1.06e-10,
+      "diameter_average": 1.06e-10,
+      "diameter_multiplier": 1.0,
+      "description": "Hydrogen atom diameter"
+    },
+    "carbon_atom": {
+      "name": "Carbon Atom",
+      "diameter_min": 1.54e-10,
+      "diameter_max": 1.54e-10,
+      "diameter_average": 1.54e-10,
+      "diameter_multiplier": 1.0,
+      "description": "Carbon atom diameter"
+    },
+    "dna_helix": {
+      "name": "DNA Double Helix",
+      "diameter_min": 2.0e-9,
+      "diameter_max": 2.0e-9,
+      "diameter_average": 2.0e-9,
+      "diameter_multiplier": 1.0,
+      "description": "DNA double helix diameter"
+    }
+  },
+    "human_hair": {
+      "name": "Human Hair",
+      "diameter_min": 1.7e-5,
+      "diameter_max": 1.8e-4,
+      "diameter_average": 1.0e-4,
+      "diameter_multiplier": 1.0,
+      "description": "Human hair diameter"
+    },
+    "red_blood_cell": {
+      "name": "Red Blood Cell",
+      "diameter_min": 6.0e-6,
+      "diameter_max": 8.0e-6,
+      "diameter_average": 7.0e-6,
+      "diameter_multiplier": 1.0,
+      "description": "Human red blood cell diameter"
+    },
+    "virus": {
+      "name": "Virus (typical)",
+      "diameter_min": 2.0e-8,
+      "diameter_max": 3.0e-7,
+      "diameter_average": 1.0e-7,
+      "diameter_multiplier": 1.0,
+      "description": "Typical virus diameter"
+    }
+  },
+  "large_objects": {
+    "blue_whale": {
+      "name": "Blue Whale (length)",
+      "diameter_min": 2.4e1,
+      "diameter_max": 3.0e1,
+      "diameter_average": 2.7e1,
+      "diameter_multiplier": 1.0,
+      "description": "Blue whale length"
+    },
+    "statue_of_liberty": {
+      "name": "Statue of Liberty",
+      "diameter_min": 9.3e1,
+      "diameter_max": 9.3e1,
+      "diameter_average": 9.3e1,
+      "diameter_multiplier": 1.0,
+      "description": "Height from base to torch"
+    },
+    "eiffel_tower": {
+      "name": "Eiffel Tower",
+      "diameter_min": 3.3e2,
+      "diameter_max": 3.3e2,
+      "diameter_average": 3.3e2,
+      "diameter_multiplier": 1.0,
+      "description": "Height including antenna"
+    }
+  },
+  "extremely_large_objects": {
+    "mount_everest": {
+      "name": "Mount Everest",
+      "diameter_min": 8.849e3,
+      "diameter_max": 8.849e3,
+      "diameter_average": 8.849e3,
+      "diameter_multiplier": 1.0,
+      "description": "Height of Mount Everest"
+    },
+    "mariana_trench": {
+      "name": "Mariana Trench",
+      "diameter_min": 1.1e4,
+      "diameter_max": 1.1e4,
+      "diameter_average": 1.1e4,
+      "diameter_multiplier": 1.0,
+      "description": "Deepest part of Earth's oceans"
+    },
+    "atmosphere_thickness": {
+      "name": "Earth's Atmosphere",
+      "diameter_min": 1.0e5,
+      "diameter_max": 1.0e5,
+      "diameter_average": 1.0e5,
+      "diameter_multiplier": 1.0,
+      "description": "Thickness of Earth's atmosphere"
+    }
+  },
+  "cosmic_scale_objects": {
+    "earth_moon_distance": {
+      "name": "Earth-Moon Distance",
+      "diameter_min": 3.844e8,
+      "diameter_max": 3.844e8,
+      "diameter_average": 3.844e8,
+      "diameter_multiplier": 1.0,
+      "description": "Average distance from Earth to Moon"
+    },
+    "earth_sun_distance": {
+      "name": "Earth-Sun Distance (1 AU)",
+      "diameter_min": 1.496e11,
+      "diameter_max": 1.496e11,
+      "diameter_average": 1.496e11,
+      "diameter_multiplier": 1.0,
+      "description": "Astronomical unit - Earth to Sun distance"
+    },
+    "solar_system_diameter": {
+      "name": "Solar System (Kuiper Belt)",
+      "diameter_min": 9.0e12,
+      "diameter_max": 9.0e12,
+      "diameter_average": 9.0e12,
+      "diameter_multiplier": 1.0,
+      "description": "Approximate diameter of solar system"
+    },
+    "light_year": {
+      "name": "Light Year",
+      "diameter_min": 9.461e15,
+      "diameter_max": 9.461e15,
+      "diameter_average": 9.461e15,
+      "diameter_multiplier": 1.0,
+      "description": "Distance light travels in one year"
+    },
+    "milky_way_diameter": {
+      "name": "Milky Way Galaxy",
+      "diameter_min": 9.5e20,
+      "diameter_max": 9.5e20,
+      "diameter_average": 9.5e20,
+      "diameter_multiplier": 1.0,
+      "description": "Diameter of the Milky Way galaxy"
+    },
+    "observable_universe": {
+      "name": "Observable Universe",
+      "diameter_min": 8.8e26,
+      "diameter_max": 8.8e26,
+      "diameter_average": 8.8e26,
+      "diameter_multiplier": 1.0,
+      "description": "Diameter of the observable universe"
+    }
+  }
+}
